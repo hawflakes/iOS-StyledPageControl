@@ -60,7 +60,7 @@
         
         UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTapped:)];
         [self addGestureRecognizer:tapGestureRecognizer];
-        [tapGestureRecognizer release];
+        //[tapGestureRecognizer release];
     }
     return self;
 }
@@ -304,7 +304,7 @@
     self.strokeNormalColor = nil;
     self.strokeSelectedColor = nil;
     
-    [super dealloc];
+    //[super dealloc];
 }
 
 - (PageControlStyle)pageControlStyle
